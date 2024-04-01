@@ -1,1 +1,75 @@
 /* placeholder */
+body {
+    background-color:  rgba(0,0,1);
+}
+
+#greeting {
+    display: flex;
+    
+    /* background-color: #222831; */
+    background: linear-gradient(90deg,rgb(29, 251, 92) 0%, rgba(19,19,34,1) 40%, rgba(0,0,0,1) 100%);
+    /* box-shadow: 0 10px 50px rgba(235, 25, 110, 1); */
+    
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+      
+      /* position: fixed;  */
+      top: 0;
+      left: 0; 
+      right: 0; 
+    
+    
+      padding: 0.875rem 2rem;
+      /* padding: 14px;
+      justify-content: space-evenly;*/
+      
+      
+    }
+    
+    #greeting h1 {
+      margin: 0;
+      font: 400 10vh "Vibur";
+      color: #fee;
+      text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #01881c, 0 0 0.5em #01881c, 0 0 0.1em #01881c, 0 10px 3px #000;
+    }
+    #greeting h1 b span {
+      animation: blink linear infinite 2s;
+    }
+    
+    #greeting h1 b span:nth-of-type(2) {
+      animation: blink linear infinite 3s;
+    }
+    
+    @keyframes blink {
+      78% {
+        color: inherit;
+        text-shadow: inherit;
+      }
+      79% {
+        color: #333;
+      }
+      80% {
+        text-shadow: none;
+      }
+      81% {
+        color: inherit;
+        text-shadow: inherit;
+      }
+      82% {
+        color: #333;
+        text-shadow: none;
+      }
+      83% {
+        color: inherit;
+        text-shadow: inherit;
+      }
+      92% {
+        color: #333;
+        text-shadow: none;
+      }
+      92.5% {
+        color: inherit;
+        text-shadow: inherit;
+      }
+    }
