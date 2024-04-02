@@ -8,7 +8,7 @@ export default function Enter() {
     }
     return (
         <>
-                <button type='button' onClick={clickMe}>↪ More About Me</button>
+                <button type='button' onClick={clickMe}>↪ Enter</button>
         </>
     )
 }
