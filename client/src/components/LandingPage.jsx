@@ -1,6 +1,4 @@
 import React from "react";
-import '../../public/landinggif.gif';
-import '../../public/welcome.gif'
 import Enter from "./button components/Enter";
 
 export default function LandingPage() {

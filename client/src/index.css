@@ -24,7 +24,7 @@ body {
 
 #greeting h1 {
 	margin: 0;
-	font: 400 10vh "Vibur";
+	font: 400 7vh "Vibur";
 	color: #fee;
 	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #01881c, 0 0 0.5em #01881c,
 		0 0 0.1em #01881c, 0 10px 3px #000;
@@ -80,9 +80,8 @@ body {
 }
 
 #landing-gif img {
-	width: 95vw;
+	width: 100%;
 	height: auto;
-	margin: 20px;
 }
 
 #buttons-container {
@@ -102,4 +101,23 @@ body {
 	box-shadow: 0px 0px 10px #1dfb5c;
 	font-style: oblique;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.sidenav {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#header {
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+#sidebar {
+	padding-left: 70vw;
 }
