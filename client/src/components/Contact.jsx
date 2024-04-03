@@ -4,6 +4,7 @@ import SideNav from "./SideNav";
 export default function Contact() {
 	return (
 		<>
+        {/* The Upper Portion of the webpage */}
 			<div id="header">
 				<div id="greeting">
 					<h1>

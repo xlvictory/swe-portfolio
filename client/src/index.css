@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Rubik+Scribble&family=Vibur&display=swap');
+
 @media screen (max-width: 1680px) {
 }
 
@@ -24,7 +26,7 @@ body {
 
 #greeting h1 {
 	margin: 0;
-	font: 400 7vh "Vibur";
+	font: 400 7vh "DotGothic16";
 	color: #fee;
 	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #01881c, 0 0 0.5em #01881c,
 		0 0 0.1em #01881c, 0 10px 3px #000;
@@ -115,9 +117,28 @@ body {
 
 #header {
 	display: inline-flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 #sidebar {
 	padding-left: 70vw;
+}
+
+#profile {
+	display: flex;
+	color: whitesmoke;
+	font: 400 15px "DotGothic16"
+}
+
+#aboutblurb h2 {
+	color: whitesmoke;
+	font: 400 5vh "Rubik Scribble";
+	text-shadow: 0px 0px 10px #1dfb5c;
+}
+
+#aboutblurb {
+	color: whitesmoke;
+	text-shadow: 0px 0px 10px #1dfb5c;
+	padding-left :70px;
+	font: 400 1.5vw "DotGothic16"
 }

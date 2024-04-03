@@ -6,7 +6,7 @@ export default function LandingPage() {
     return (
         <>
         <div id='welcome'>
-            <img src='/welcome.gif' />
+            <img src='/welcome.png' />
         </div>
             <div id='landing-gif'>
                 <img src='/landinggif.gif' />

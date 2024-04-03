@@ -4,6 +4,7 @@ import SideNav from "./SideNav";
 export default function Projects() {
     return (
         <>
+        {/* The Upper Portion of the webpage */}
         <div id='header'>
             <div id="greeting">
                 <h1><b>Tech<span>nic</span><span>al Pro</span><span>jec</span>ts⋆<span>*`</span></b></h1>
