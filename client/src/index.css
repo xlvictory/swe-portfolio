@@ -130,15 +130,124 @@ body {
 	font: 400 15px "DotGothic16"
 }
 
-#aboutblurb h2 {
+#aboutblurb h1 {
 	color: whitesmoke;
-	font: 400 5vh "Rubik Scribble";
+	font: 400 8vh "Rubik Scribble";
 	text-shadow: 0px 0px 10px #1dfb5c;
 }
 
 #aboutblurb {
 	color: whitesmoke;
-	text-shadow: 0px 0px 10px #1dfb5c;
 	padding-left :70px;
 	font: 400 1.5vw "DotGothic16"
+}
+
+#skills {
+	color: whitesmoke;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	margin: 10px;
+}
+
+#skills h1 {
+	font: 100 40px "Rubik Scribble";
+	text-decoration: line-through;
+	text-shadow: 0px 0px 8px #1dfb5c;
+}
+
+#skills h3 {
+	font: 100 20px "DotGothic16";
+	text-shadow: 0px 0px 8px #3ee8ff;
+	text-decoration: underline;
+}
+
+#tech-skills {
+	border: 2px solid whitesmoke;
+	padding: 20px;
+	height: 400px;
+	width: 500px;
+	overflow-y: scroll;
+	box-shadow: 0px 0px 10px #1dfb5c;
+	font: 100 15px "DotGothic16";
+}
+
+#soft-skills {
+	border: 2px solid whitesmoke;
+	padding: 20px;
+	margin-left: 30px;
+	height: 400px;
+	width: 500px;
+	box-shadow: 0px 0px 10px #1dfb5c;
+	font: 100 15px "DotGothic16";
+	overflow-y: scroll;
+}
+
+#divider {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#hobbies {
+display: flex;
+justify-content: center;
+}
+
+#title {
+	color: whitesmoke;
+	text-align: center;
+	font: 100 20px "Rubik Scribble";
+	text-shadow: 0px 0px 10px #1dfb5c;
+	
+}
+
+#hobbies h3 {
+	color: whitesmoke;
+	font: 100 30px "Rubik Scribble";
+	text-shadow: 0px 0px 8px #3ee8ff;
+	text-decoration: line-through;
+}
+
+.art {
+border: 2px solid whitesmoke;
+box-shadow: 0px 0px 10px #1dfb5c;
+padding: 10px;
+color: whitesmoke;
+height: 300px;
+overflow-y: scroll;
+font: 100 15px "DotGothic16";
+margin: 20px;
+}
+
+.music {
+	border: 2px solid whitesmoke;
+	box-shadow: 0px 0px 10px #1dfb5c;
+	padding: 10px;
+	color: whitesmoke;
+	height: 300px;
+	overflow-y: scroll;
+	font: 100 15px "DotGothic16";
+	margin: 20px;
+}
+
+.stem {
+	border: 2px solid whitesmoke;
+	box-shadow: 0px 0px 10px #1dfb5c;
+	padding: 10px;
+	color: whitesmoke;
+	height: 300px;
+	overflow-y: scroll;
+	font: 100 15px "DotGothic16";
+	margin: 20px;
+}
+
+.other {
+	border: 2px solid whitesmoke;
+	box-shadow: 0px 0px 10px #1dfb5c;
+	padding: 10px;
+	color: whitesmoke;
+	height: 300px;
+	overflow-y: scroll;
+	font: 100 15px "DotGothic16";
+	margin: 20px;
 }
