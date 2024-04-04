@@ -19,6 +19,12 @@ export default function About() {
                 <img src="/xolani.png" alt="a photo of Xolani Victory on a galaxy background" style={{ height: "600px", marginTop: "50px", marginLeft: "20px" }} /> <br/>
                 
                 <p style={{ textAlign: "center" }}> they/she <br/> based in michigan, usa</p>
+                <p style={{ textAlign: "center" }}>
+                    <a href="http://www.linkedin.com/in/xolanivictory">
+                        <img src="/linkedin.png" style={{ height: "30px" }}/>
+                    </a>
+                    <a href="http://www.github.com/xlvictory"><img src="/github.png" style={{ height: "35px" }}/></a>
+                </p>
             </div>
             <div id='aboutblurb'>
                 <h1>Well, Hello There... </h1>
