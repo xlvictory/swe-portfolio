@@ -24,7 +24,7 @@ export default function About() {
                 <h1>Well, Hello There... </h1>
                 <p> Pleasure to meet you!! I'm Xolani (pronounced ZOH-LAH-nee), a full stack software engineer with a keen aesthetic eye and a love for web design. At 8 years old, I discovered my passion for not only art, activism and science, but programming as well. I self-taught myself HTML & CSS, and have been building HTML pages and Tumblr themes since my preteen years.</p>
                 
-                <p>As a recent alum of Fullstack Academy's Grace Hopper Program-- an immersive and rigorous coding bootcamp catered towards women and non-binary students-- I have attained skills that have helped develop my technical prowess. Now, I am able to build full static sites and web applications  (like this one!) utilizing Javascript, React and other tools/frameworks to make everything as pretty as I imagine them to be!!
+                <p>As a recent alum of Fullstack Academy's Grace Hopper Program-- an immersive and rigorous coding bootcamp catered towards women and non-binary students-- I have attained skills that have helped develop my technical prowess. Now, I am able to build complete static sites and web applications  (like this one!) utilizing Javascript, React and other tools/frameworks to make everything as pretty as I imagine them to be!!
                 </p>
                 <p>Building beautiful, interactive client-facing experiences makes me feel empowered, and having others resonate with my vision is the bee's knees. I'm inspired to change the world as a person with big dreams, an even bigger heart, and the power of software development on my side.</p>
             </div>
