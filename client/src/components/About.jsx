@@ -1,6 +1,7 @@
 import React from "react";
 import SideNav from "./SideNav";
 import SeeProjects from './button components/SeeProjects';
+import DownloadResume from "./button components/DownloadResume";
 
 export default function About() {
     return (
@@ -77,7 +78,11 @@ export default function About() {
                 </ul>              
             </div>
         </section>
-        <div id="divider"><img src="/gifdivider.gif" /></div>
+        <div id="divider">
+            <DownloadResume />
+            <img src="/gifdivider.gif" />
+            <SeeProjects /> 
+            </div>
         {/* Comprehensive list of my hobbies and interests */}
         
         <div id='title'><h1>Hobbies/Interests</h1></div>

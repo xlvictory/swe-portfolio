@@ -251,3 +251,82 @@ margin: 20px;
 	font: 100 15px "DotGothic16";
 	margin: 20px;
 }
+
+#project-button {
+	margin: 20px;
+	width: 150px;
+	height: 35px;
+	background-color: #000000;
+	border-color: #1dfb5c;
+	border-radius: 8px;
+	color: aliceblue;
+	box-shadow: 0px 0px 10px #1dfb5c;
+	font-style: oblique;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#resume-button {
+	margin: 20px;
+	width: 150px;
+	height: 35px;
+	background-color: #000000;
+	border-color: #1dfb5c;
+	border-radius: 8px;
+	color: aliceblue;
+	box-shadow: 0px 0px 10px #1dfb5c;
+	font-style: oblique;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contact-button {
+	margin: 20px;
+	width: 150px;
+	height: 35px;
+	background-color: #000000;
+	border-color: #1dfb5c;
+	border-radius: 8px;
+	color: aliceblue;
+	box-shadow: 0px 0px 10px #1dfb5c;
+	font-style: oblique;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contact {
+	border: 2px dotted whitesmoke;
+	height: 500px;
+	width: 50vw;
+	text-align: center;
+	padding: 20px;
+	margin: 30px;
+	box-shadow: 0px 0px 30px #1dfb5c;
+}
+
+h4 {
+color: whitesmoke;
+font: 100 15px "DotGothic16";
+text-shadow: 0px 0px 8px #3ee8ff;
+}
+
+.contactForm h3 {
+	color: whitesmoke;
+	font: 100 30px "Rubik Scribble";
+	text-shadow: 0px 0px 8px #1dfb5c;
+}
+
+input {
+	background-color: #303030;
+	height: 3vh;
+	width: 40vw;
+	color: whitesmoke;
+}
+
+textarea {
+	background-color: #303030;
+	width: 50vw;
+	height: 10vh;
+	color: whitesmoke;
+}
+
+.col-12 {
+	display: inline-flex;
+}

@@ -8,7 +8,7 @@ export default function SeeProjects() {
     }
     return (
         <>
-                <button type='button' onClick={clickMe2}>↪ My Projects</button>
+                <button type='button' id="project-button" onClick={clickMe2}>↪ My Projects</button>
         </>
     )
 }
