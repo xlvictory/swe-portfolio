@@ -71,9 +71,9 @@ export default function Contact() {
 					<SideNav />
 				</div>
 		</div>
-
+<div className="container">
 		<div className='contact'>
-      <div className='container'>
+      <div className='form-container'>
         <div className='row'>
           <div className='col-12'>
             <div className='contactForm'>
@@ -154,13 +154,14 @@ export default function Contact() {
                 </button>
               </form> 
             </div>
-			{/* Photo of me next to the contact form */}
-	<div id='contact-photo'>
-<img src="/contact-lani.png" alt="Xolani on another galaxy background featuring some planets"  style={{ height: "60vh" }} />
 	</div>
           </div>
-        </div>
-      </div>
+       </div>
+</div>
+
+{/* Photo of me next to the contact form */}
+		<div id='contact-photo'><img src="/contact-lani.png" alt="Xolani on another galaxy background featuring some planets"  style={{ height: "65vh", marginLeft: "-100px" }} /></div>
+    </div>
 	  {alertInfo.display && (
 		<div
 		  className={`alert alert-${alertInfo.type} alert-dismissible mt-5`}
@@ -175,11 +176,9 @@ export default function Contact() {
 			onClick={() =>
 			  setAlertInfo({ display: false, message: '', type: '' })
 			} // Clear the alert when close button is clicked
-		  ></button>
+		  >Close</button>
 		</div>
 	  )}
-    </div>
-
 	<div>
 		<footer>
 			Email: <br />

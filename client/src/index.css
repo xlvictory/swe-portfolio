@@ -138,8 +138,8 @@ body {
 
 #aboutblurb {
 	color: whitesmoke;
-	padding-left :70px;
-	font: 400 1.5vw "DotGothic16"
+	font: 400 1.5vw "DotGothic16";
+	margin: 30px;
 }
 
 #skills {
@@ -297,7 +297,7 @@ margin: 20px;
 	width: 50vw;
 	text-align: center;
 	padding: 20px;
-	margin: 30px;
+	margin-top: 30px;
 	box-shadow: 0px 0px 30px #1dfb5c;
 }
 
@@ -313,22 +313,15 @@ text-shadow: 0px 0px 8px #3ee8ff;
 	text-shadow: 0px 0px 8px #1dfb5c;
 }
 
-input {
+.form-control{
 	background-color: #303030;
-	height: 3vh;
-	width: 40vw;
-	color: whitesmoke;
+	height: 3vh; 
+ 	color: whitesmoke;
 }
 
-textarea {
-	background-color: #303030;
-	width: 50vw;
-	height: 10vh;
-	color: whitesmoke;
-}
-
-.col-12 {
-	display: inline-flex;
+.container {
+	display: flex;
+	margin-bottom: 30px;
 }
 
 footer {
