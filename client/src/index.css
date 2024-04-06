@@ -330,3 +330,16 @@ textarea {
 .col-12 {
 	display: inline-flex;
 }
+
+footer {
+	padding: 5px;
+	margin: 10px;
+	font: 100 15px "DotGothic16";
+	color: whitesmoke;
+	background: linear-gradient(
+		90deg,
+		#000000 0%,
+		rgba(19, 19, 34, 1) 40%,
+		#1dfb5c 100%
+	);
+}

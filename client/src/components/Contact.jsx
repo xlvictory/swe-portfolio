@@ -41,10 +41,10 @@ export default function Contact() {
 			};
 		// Use emailjs to email contact form data
 			await emailjs.send(
-			  process.env.VITE_APP_SERVICE_ID,
-			  process.env.VITE_APP_TEMPLATE_ID,
-			  templateParams,
-			  process.env.VITE_APP_PUBLIC_KEY
+			'service_herj5f9',
+			'template_l72fvrl',
+			templateParams,
+			'lV1Qtv9udRKEMwUOa'
 			);
 		// Display success alert
 			 toggleAlert('Form submission was successful!', 'success');
@@ -179,6 +179,21 @@ export default function Contact() {
 		</div>
 	  )}
     </div>
+
+	<div>
+		<footer>
+			Email: <br />
+			xolani.victory@gmail.com<br />
+			Phone #:<br />
+			+1(209)425-5090 <br />
+			<p style={{ textAlign: "left" }}>
+                    <a href="http://www.linkedin.com/in/xolanivictory">
+                        <img src="/linkedin.png" style={{ height: "30px" }}/>
+                    </a>
+                    <a href="http://www.github.com/xlvictory"><img src="/github.png" style={{ height: "35px" }}/></a>
+                </p>
+		</footer>
+	</div>
 		</>
 	);
 }
