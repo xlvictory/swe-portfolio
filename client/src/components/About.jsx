@@ -54,6 +54,8 @@ export default function About() {
                 <p>Tailwind CSS, Bootstrap, Pixi.js</p>
                 <h3>Database:</h3>
                 <p>PostgreSQL, SQL querying</p>
+                <h3>Testing:</h3>
+                <p>Cypress, Jest</p>
             </div><br />
             {/* list of pretty much all of my soft skills */}
             <div id="soft-skills">
