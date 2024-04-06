@@ -8,7 +8,7 @@ const { collapseSidebar } = useProSidebar();
     return (
         <>
 <div style={{ display: "flex", height: "240px", flexDirection: "row-reverse", width: "20px"}}>
-        <Sidebar className='sidenav' defaultCollapsed={true}>
+        <Sidebar className='sidenav' defaultCollapsed={false}>
             <Menu>
              <MenuItem onClick={() => {
                 collapseSidebar();
