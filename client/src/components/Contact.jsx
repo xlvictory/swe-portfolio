@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SideNav from "./SideNav";
 import { useForm } from 'react-hook-form';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 	const [disabled, setDisabled] = useState(false);
@@ -9,7 +10,6 @@ export default function Contact() {
 	  message: '',
 	  type: '',
 	});
-
 	// Shows alert message for form submission feedback
 	const toggleAlert = (message, type) => {
 	  setAlertInfo({ display: true, message, type });
@@ -41,10 +41,10 @@ export default function Contact() {
 			};
 		// Use emailjs to email contact form data
 			await emailjs.send(
-			  process.env.serviceID,
-			  process.env.templateID,
+			  process.env.VITE_APP_SERVICE_ID,
+			  process.env.VITE_APP_TEMPLATE_ID,
 			  templateParams,
-			  process.env.publicKey
+			  process.env.VITE_APP_PUBLIC_KEY
 			);
 		// Display success alert
 			 toggleAlert('Form submission was successful!', 'success');
@@ -59,24 +59,6 @@ export default function Contact() {
 			reset();
 		  }
 	  };
-
-	  {alertInfo.display && (
-		<div
-		  className={`alert alert-${alertInfo.type} alert-dismissible mt-5`}
-		  role='alert'
-		>
-		  {alertInfo.message}
-		  <button
-			type='button'
-			className='btn-close'
-			data-bs-dismiss='alert'
-			aria-label='Close'
-			onClick={() =>
-			  setAlertInfo({ display: false, message: '', type: '' })
-			} // Clear the alert when close button is clicked
-		  ></button>
-		</div>
-	  )}
 
 	return (
 		<>
@@ -167,10 +149,10 @@ export default function Contact() {
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
-               
-              </form> <button className='contact-button' type='submit'>
+               <button className='contact-button' type='submit'>
                   Submit
                 </button>
+              </form> 
             </div>
 			{/* Photo of me next to the contact form */}
 	<div id='contact-photo'>
@@ -179,10 +161,24 @@ export default function Contact() {
           </div>
         </div>
       </div>
-	  
+	  {alertInfo.display && (
+		<div
+		  className={`alert alert-${alertInfo.type} alert-dismissible mt-5`}
+		  role='alert'
+		>
+		  {alertInfo.message}
+		  <button
+			type='button'
+			className='btn-close'
+			data-bs-dismiss='alert'
+			aria-label='Close'
+			onClick={() =>
+			  setAlertInfo({ display: false, message: '', type: '' })
+			} // Clear the alert when close button is clicked
+		  ></button>
+		</div>
+	  )}
     </div>
-
-	
 		</>
 	);
 }
