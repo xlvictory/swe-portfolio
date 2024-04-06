@@ -164,12 +164,14 @@ export default function About() {
                 <li>Journaling</li>
                 <li>Trvaeling</li>
                 <li>Badminton</li>
+                <li>DnD</li>
                 <li>Ice skating</li>
                 <li>Tarot</li>
                 <li>Psychology</li>
                 <li>Pinterest</li>
                 <li>Crystals & Holistic Healing</li>
                 <li>Anime</li>
+                <li>Cosplaying</li>
                 <li>Horror Movies</li>
             </ul>
             </div>
