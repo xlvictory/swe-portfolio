@@ -17,7 +17,7 @@ export default function About() {
         {/* The section featuring my photo and information */}
         <div id='profile'>
             <div>
-                <img src="/xolani.png" alt="a photo of Xolani Victory on a galaxy background" style={{ height: "600px", marginTop: "50px", marginLeft: "20px" }} /> <br/>
+                <img src="/xolani.png" alt="a photo of Xolani Victory on a galaxy background" style={{ height: "50vh", marginTop: "50px", marginLeft: "20px" }} /> <br/>
                 
                 <p style={{ textAlign: "center" }}> they/she <br/> based in michigan, usa</p>
                 <p style={{ textAlign: "center" }}>
